@@ -2,8 +2,6 @@
 
 This is a script that predicts whether or not a human is doing one of 6 activities that is tracked by a user's smartphone. Data for the [Human Activity Recognition Using Smartphones Data Set](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones) is hosted at the Center for Machine Learning and Intelligent Systems at the University of California, Irvine.
 
-https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -12,7 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 This project requires a base installation of Python 3.5, h5py, numpy, karas, tensorflow, sklearn, matplotlib, and seaborn.
 
-Download the data ![here](https://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip) and unzip it in your working directory.
+Download the data [here](https://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip) and unzip it in your working directory.
 
 ## How to Run
 

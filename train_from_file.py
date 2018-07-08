@@ -30,14 +30,14 @@ def PlotConfusionMatrix(y_test,y_pred,fig_name):
     ax = fig.add_subplot(1,2,1)
     sns.heatmap(cm, cmap='coolwarm_r',linewidths=0.5,annot=True,ax=ax)
     plt.title('Confusion Matrix')
-    plt.ylabel('True churn type')
-    plt.xlabel('Predicted churn type')
+    plt.ylabel('True movement type')
+    plt.xlabel('Predicted movement type')
 
     ax = fig.add_subplot(1,2,2)
     sns.heatmap(cm_norm ,cmap='coolwarm_r',linewidths=0.5,annot=True,ax=ax)
     plt.title('Normalized Confusion Matrix')
-    plt.ylabel('True churn type')
-    plt.xlabel('Predicted churn type')
+    plt.ylabel('True movement type')
+    plt.xlabel('Predicted movement type')
     plt.show()
     
     plot_path = Path('plots')
