@@ -8,16 +8,16 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix
-from keras.utils import to_categorical
-from keras.utils.io_utils import HDF5Matrix
-from keras.metrics import categorical_accuracy
-from keras.optimizers import Adam
-from keras.callbacks import ModelCheckpoint
-from keras.models import Model
-from keras.layers import Input, Dense, Dropout, Flatten
-from keras.layers.convolutional import Conv1D, MaxPooling1D
-from keras import backend as K
-K.set_image_dim_ordering('tf')
+from tensorflow.keras.utils import to_categorical
+from tensorflow.keras.utils import HDF5Matrix
+from tensorflow.keras.metrics import categorical_accuracy
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Dense, Dropout, Flatten
+from tensorflow.keras.layers import Conv1D, MaxPooling1D
+#from tensorflow.keras import backend as K
+#K.set_image_dim_ordering('tf')
 
 #%%
 def PlotConfusionMatrix(y_test,y_pred,fig_name):
